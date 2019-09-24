@@ -9,7 +9,19 @@
   background: #74cfae;
 }
 
+h1 {
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+  text-align: center;
+}
 
+h2 {
+  font-size: 30px;
+  color: #c0c0c0;
+  text-align: center;
+  margin-top: 20px;
+}
 
 #email-btn {
   padding: 14px 20px;
@@ -28,4 +40,10 @@
 
 header {
   padding: 15px 0;
+}
+
+/* main */
+.theme {
+  padding: 250px 0;
+  background: #f2f2f2;
 }
