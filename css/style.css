@@ -1,3 +1,31 @@
 .inner {
   width: 1100px;
+  margin: 0 auto;
+}
+
+.btn {
+  font-size: 12px;
+  color: #fff;
+  background: #74cfae;
+}
+
+
+
+#email-btn {
+  padding: 14px 20px;
+}
+
+/* ヘッダー */
+.header-btn-wrapper {
+  text-align: right;
+}
+
+#contact-btn {
+  padding: 14px 12px;
+  text-align: right;
+
+}
+
+header {
+  padding: 15px 0;
 }
