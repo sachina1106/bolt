@@ -23,6 +23,14 @@ h2 {
   margin-top: 20px;
 }
 
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 20px;
+}
+
 #email-btn {
   padding: 14px 20px;
 }
@@ -46,4 +54,28 @@ header {
 .theme {
   padding: 250px 0;
   background: #f2f2f2;
+}
+
+#first-section {
+  padding-top: 50px;
+  background: #74cfae;
+}
+
+#first-section p,
+#first-section h3 {
+  color: #fff;
+}
+
+#first-section-wrapper {
+  display: flex;
+}
+
+.first-section-left,
+.first-section-right {
+  width: 50%;
+  text-align: center;
+}
+
+#first-section p {
+  margin-top: 35px;
 }
