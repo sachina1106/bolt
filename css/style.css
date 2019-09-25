@@ -130,3 +130,31 @@ article {
   padding-left: 90px;
   box-sizing: border-box;
 }
+
+#section05 {
+  padding: 70px 0 100px 0;
+  background: #4e4e4e;
+}
+
+#section05 h3 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+#skills-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+
+#skills-wrapper div:nth-child(n+1):nth-child(-n+3) {
+  margin-right: 180px;
+}
+
+#skills-wrapper p {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
