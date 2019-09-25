@@ -72,8 +72,23 @@ p {
   text-align: right;
 }
 
+.header-sp-wrapper {
+  display: flex;
+}
 
+.header-sp-icon {
+  width: 50%;
+}
 
+.header-sp-icon i {
+  font-size: 50px;
+  color: #4e4e4e;
+}
+
+.humberger-wrapper {
+  text-align: right;
+  width: 50%;
+}
 
 header {
   padding: 15px 0;
@@ -216,6 +231,7 @@ nav {
 
 .sns-wrapper i:hover {
   background: #fff;
+  cursor: pointer;
 }
 
 footer {
@@ -236,6 +252,7 @@ footer p {
   width: 24px;
   display: inline-block;
   box-sizing: border-box;
+  margin-right: 3px;
 }
 
 #humberger div {
@@ -243,7 +260,7 @@ footer p {
   left: 0;
   height: 4px;
   width: 24px;
-  background-color: #444;
+  background-color: #ddd;
   border-radius: 2px;
   display: inline-block;
   box-sizing: border-box;
@@ -261,12 +278,17 @@ footer p {
   bottom: 0;
 }
 
-/*ハンバーガーアイコンend*/
-
-.align-right {
+.border {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 30px;
   text-align: right;
+  display: inline-block;
+  height: 26px;
+  border-radius: 4px;
 }
 
+/*ハンバーガーアイコンend*/
 .header-sp-title {
   background: #74cfae;
   padding: 20px;
@@ -374,7 +396,7 @@ footer p {
 }
 
 
-
+/* スマホサイズ */
 @media screen and (max-width:767px) {
   .header-pc {
     display: none;
@@ -382,6 +404,23 @@ footer p {
 
   .header-sp {
     display: block !important;
+  }
+
+  header {
+    padding: 15px 0 0 0;
+  }
+
+  .sns-wrapper i {
+    display: block;
+    width: 100%;
+  }
+
+  nav {
+    padding: 50px 0;
+  }
+
+  .img-wrapper img {
+    width: 100%;
   }
 
 }
