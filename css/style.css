@@ -195,3 +195,13 @@ nav {
 .sns-wrapper i:hover {
   background: #fff;
 }
+
+footer {
+  background: #74cfae;
+  padding: 20px 0 25px 0;
+}
+
+footer p {
+  text-align: right;
+  color: #fff;
+}
