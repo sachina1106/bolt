@@ -7,6 +7,12 @@
   font-size: 12px;
   color: #fff;
   background: #74cfae;
+  transition: .3s
+}
+
+.btn:hover {
+  color: #333;
+  cursor: grab;
 }
 
 h1 {
@@ -43,8 +49,9 @@ p {
 #contact-btn {
   padding: 14px 12px;
   text-align: right;
-
 }
+
+
 
 header {
   padding: 15px 0;
@@ -99,6 +106,12 @@ article {
 
 .img-wrapper img {
   display: block;
+  opacity: 0.7;
+  transition: .3s
+}
+
+.img-wrapper img:hover {
+  opacity: 1;
 }
 
 .img-wrapper img:nth-child(2),
@@ -157,4 +170,28 @@ article {
   color: #fff;
   text-align: center;
   margin-top: 10px;
+}
+
+nav {
+  padding: 200px 0;
+  background: #f2f2f2;
+}
+
+.sns-wrapper {
+  text-align: center;
+}
+
+.sns-wrapper i {
+  width: 185px;
+  display: inline-block;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  font-size: 40px;
+  transition: .3s;
+  color: #74cfae;
+}
+
+.sns-wrapper i:hover {
+  background: #fff;
 }
