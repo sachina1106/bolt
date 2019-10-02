@@ -90,7 +90,7 @@ p {
   width: 50%;
 }
 
-header {
+.header {
   padding: 15px 0;
 }
 
@@ -234,12 +234,12 @@ nav {
   cursor: pointer;
 }
 
-footer {
+.footer {
   background: #74cfae;
   padding: 20px 0 25px 0;
 }
 
-footer p {
+.footer p {
   text-align: right;
   color: #fff;
 }
@@ -378,19 +378,16 @@ footer p {
     display: block;
   }
 
-  .js,
-  .bt,
-  .ps,
-  .wp {
+  .skill-contents {
     margin: 0 auto;
     text-align: center;
   }
 
-  #skills-wrapper div:nth-child(n+1):nth-child(-n+3) {
+  #skills-wrapper .skill-contents:nth-child(n+1):nth-child(-n+3) {
     margin-right: 0;
   }
 
-  #skills-wrapper div:nth-child(n+2):nth-child(-n+4) {
+  #skills-wrapper .skill-contents:nth-child(n+2):nth-child(-n+4) {
     margin-top: 88px;
   }
 }
@@ -402,12 +399,20 @@ footer p {
     display: none;
   }
 
+  .theme {
+    padding: 160px 0 130px 0;
+  }
+
+  .header-sp-title {
+    display: none;
+  }
+
   .header-sp {
     display: block !important;
   }
 
-  header {
-    padding: 15px 0 0 0;
+  .header {
+    padding: 15px 0;
   }
 
   .sns-wrapper i {
