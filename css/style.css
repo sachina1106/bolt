@@ -15,21 +15,21 @@
   cursor: grab;
 }
 
-h1 {
+.top-title {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
   text-align: center;
 }
 
-h2 {
+.sub-title {
   font-size: 30px;
   color: #c0c0c0;
   text-align: center;
   margin-top: 20px;
 }
 
-h3 {
+.contents-title {
   font-size: 24px;
 }
 
