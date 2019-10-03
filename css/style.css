@@ -39,6 +39,7 @@ img {
 
 .sub-title {
   font-size: 24px;
+  text-align: center;
 
 }
 
@@ -155,11 +156,12 @@ p {
   margin-top: 35px;
 }
 
-.article {
+.image-article {
   padding: 60px 0 70px;
+  background: #f2f2f2;
 }
 
-.section02 h3 {
+.our-latest-work h3 {
   text-align: center;
 }
 
@@ -191,9 +193,6 @@ p {
   margin-top: 80px;
 }
 
-article {
-  background: #f2f2f2;
-}
 
 .section04 {
   display: flex;
