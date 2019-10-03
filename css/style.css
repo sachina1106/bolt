@@ -38,7 +38,7 @@ p {
   font-size: 20px;
 }
 
-#email-btn {
+.email-btn {
   padding: 14px 20px;
 }
 
@@ -67,7 +67,7 @@ p {
   text-align: right;
 }
 
-#contact-btn {
+.contact-btn {
   padding: 14px 12px;
   text-align: right;
 }
@@ -100,17 +100,17 @@ p {
   background: #f2f2f2;
 }
 
-#section01 {
+.section01 {
   padding-top: 50px;
   background: #74cfae;
 }
 
-#section01 p,
-#section01 h3 {
+.section01 p,
+.section01 h3 {
   color: #fff;
 }
 
-#section01-wrapper {
+.section01-wrapper {
   display: flex;
 }
 
@@ -120,19 +120,19 @@ p {
   text-align: center;
 }
 
-#section01 p {
+.section01 p {
   margin-top: 35px;
 }
 
-article {
+.article {
   padding: 60px 0 70px 0;
 }
 
-#section02 h3 {
+.section02 h3 {
   text-align: center;
 }
 
-#section03 {
+.section03 {
   padding: 40px 0 90px 0;
 }
 
@@ -164,7 +164,7 @@ article {
   background: #f2f2f2;
 }
 
-#section04 {
+.section04 {
   display: flex;
   width: 90%;
   margin: 0 auto;
@@ -181,12 +181,12 @@ article {
   box-sizing: border-box;
 }
 
-#section05 {
+.section05 {
   padding: 70px 0 100px 0;
   background: #4e4e4e;
 }
 
-#section05 h3 {
+.section05 h3 {
   text-align: center;
   color: #fff;
   margin-bottom: 50px;
@@ -315,7 +315,7 @@ nav {
     display: none;
   }
 
-  #section01-wrapper {
+  .section01-wrapper {
     display: block;
   }
 
@@ -332,7 +332,7 @@ nav {
     margin-top: 20px;
   }
 
-  #section01 {
+  .section01 {
     padding-bottom: 25px;
   }
 
@@ -358,7 +358,7 @@ nav {
     margin-bottom: 80px;
   }
 
-  #section04 {
+  .section04 {
     display: block;
     width: 97%;
   }
