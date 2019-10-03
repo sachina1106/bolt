@@ -30,15 +30,24 @@ img {
   text-align: center;
 }
 
-.sub-title {
+.top-text {
   font-size: 30px;
   color: #c0c0c0;
   text-align: center;
   margin-top: 20px;
 }
 
-.contents-title {
+.sub-title {
   font-size: 24px;
+
+}
+
+.white {
+  color: #fff;
+}
+
+.dark {
+  color: #000;
 }
 
 p {
@@ -114,27 +123,35 @@ p {
   background: #f2f2f2;
 }
 
-.section01 {
+.wat-we-can-do-section {
   padding-top: 50px;
   background: #74cfae;
 }
 
-.section01 p,
-.section01 h3 {
+.wat-we-can-do-section p,
+.wat-we-can-do-section h3 {
   color: #fff;
 }
 
-.section01-wrapper {
+.wat-we-can-do-section-wrapper {
   display: flex;
 }
 
-.section01-left,
-.section01-right {
+.wat-we-can-do-section-left,
+.wat-we-can-do-section-right {
   width: 50%;
   text-align: center;
 }
 
-.section01 p {
+.wat-we-can-do-section-left {
+  width: 40%;
+}
+
+.wat-we-can-do-section-rifght {
+  width: 60%;
+}
+
+.wat-we-can-do-section p {
   margin-top: 35px;
 }
 
@@ -329,24 +346,24 @@ nav {
     display: none;
   }
 
-  .section01-wrapper {
+  .wat-we-can-do-section-wrapper {
     display: block;
   }
 
-  .section01-left {
+  .wat-we-can-do-section-left {
     width: 100%;
   }
 
-  .section01-right {
+  .wat-we-can-do-section-right {
     width: 80%;
     margin: 0 auto;
   }
 
-  .section01-right h3 {
+  .wat-we-can-do-section-right h3 {
     margin-top: 20px;
   }
 
-  .section01 {
+  .wat-we-can-do-section {
     padding-bottom: 25px;
   }
 
