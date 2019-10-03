@@ -450,6 +450,16 @@ p {
   .skills-wrapper .skill-contents:nth-child(n+2):nth-child(-n+4) {
     margin-top: 88px;
   }
+
+  .our-latest-work-text-right {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .mt-20 {
+    margin-top: 20px;
+  }
 }
 
 
