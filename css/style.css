@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+.pt {
+  padding-top: 75px;
+}
+
 .raleway {
   font-family: Raleway;
 }
@@ -227,6 +231,7 @@ p {
 
 .sns-wrapper {
   text-align: center;
+  font-size: 0;
 }
 
 .sns-wrapper a {
@@ -257,38 +262,23 @@ p {
 
 /*ハンバーガーアイコン*/
 .humberger {
-  height: 24px;
-  width: 24px;
   box-sizing: border-box;
-  margin-left: 2px;
 }
 
 .humberger div {
   height: 4px;
-  width: 24px;
   background-color: #ddd;
   border-radius: 2px;
   box-sizing: border-box;
   margin-top: 5px;
 }
 
-.humberger div:nth-of-type(1) {
-  top: 0;
-}
 
-.humberger div:nth-of-type(2) {
-  top: 10px;
-}
-
-.humberger div:nth-of-type(3) {
-  bottom: 0;
-}
 
 .border {
   border: 1px solid #ddd;
   padding: 10px;
   width: 30px;
-  height: 26px;
   border-radius: 4px;
 }
 
@@ -324,6 +314,7 @@ p {
   .wat-we-can-do-section-right {
     width: 80%;
     margin: 0 auto;
+    margin-top: 20px;
   }
 
   .wat-we-can-do-section-right h3 {
@@ -335,7 +326,7 @@ p {
   }
 
   .img-wrapper {
-    display: block;
+    display: inline-block;
   }
 
   .img-section-img {
@@ -356,13 +347,12 @@ p {
     margin-top: 0;
   }
 
-  .img-section-img:nth-child(3) {
+  .img-section-img:nth-child(4n+3) {
     margin-bottom: 80px;
   }
 
   .our-latest-work-text-container {
     display: block;
-    width: 97%;
   }
 
   .our-latest-work-text-left,
@@ -389,13 +379,13 @@ p {
     margin-right: 0;
   }
 
-  .skills-wrapper .skill-contents:nth-child(n+2):nth-child(-n+4) {
+  .skills-wrapper .skill-contents:nth-child(n+2) {
     margin-top: 88px;
   }
 
   .our-latest-work-text-right {
     text-align: center;
-    margin: 0 auto;
+    margin: 0;
     margin-top: 40px;
   }
 
@@ -405,6 +395,7 @@ p {
 
   .img-section {
     margin-bottom: 80px;
+    text-align: center;
   }
 }
 
