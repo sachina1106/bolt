@@ -273,6 +273,9 @@ p {
   margin-top: 5px;
 }
 
+.humberger div:first-child {
+  margin-top: 0;
+}
 
 
 .border {
@@ -330,7 +333,7 @@ p {
   }
 
   .img-section-img {
-    margin: 0 auto;
+    margin: 0;
 
   }
 
@@ -338,10 +341,7 @@ p {
     text-align: center;
   }
 
-  .img-section-img:nth-child(2),
-  .img-section-img:nth-child(5) {
-    margin: 0 auto;
-  }
+
 
   .img-section-img:nth-child(n+4):nth-child(-n+6) {
     margin-top: 0;
