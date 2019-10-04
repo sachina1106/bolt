@@ -6,6 +6,11 @@ img {
   vertical-align: top;
 }
 
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
 .raleway {
   font-family: Raleway;
 }
@@ -75,10 +80,6 @@ p {
   line-height: 45px;
   color: #4e4e4e;
 
-}
-
-.header-btn-right {
-  margin-top: 15px;
 }
 
 .contact-btn {
@@ -182,13 +183,13 @@ p {
 }
 
 .our-latest-work-text-left {
-  width: 80%;
+  width: 74%;
   text-align: center;
 }
 
 .our-latest-work-text-right {
   width: 20%;
-  margin-left: 90px;
+  margin-left: 6%;
   box-sizing: border-box;
 }
 
@@ -228,18 +229,17 @@ p {
   text-align: center;
 }
 
-.sns-wrapper i {
+.sns-wrapper a {
   width: 185px;
   display: inline-block;
   text-align: center;
-  height: 100px;
-  line-height: 100px;
+  padding: 30px 0;
   font-size: 40px;
   transition: .3s;
   color: #74cfae;
 }
 
-.sns-wrapper i:hover {
+.sns-wrapper a:hover {
   background: #fff;
   cursor: pointer;
 }
@@ -435,7 +435,7 @@ p {
     padding: 15px 0;
   }
 
-  .sns-wrapper i {
+  .sns-wrapper a {
     width: 100%;
   }
 
